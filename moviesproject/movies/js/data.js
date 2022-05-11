@@ -14,7 +14,7 @@ closeNav();
 document.getElementById("btn").addEventListener("click", openNav);
 
 const overlayContent = document.getElementById("overlay-content");
-const apikey = "api_key=462819e074a0c3c53777a43a7e531bc7";
+const apikey = "add your api key";
 const base_url = "https://api.themoviedb.org/3";
 const img_url = "https://image.tmdb.org/t/p/w500";
 let a = localStorage.getItem("movieid");
